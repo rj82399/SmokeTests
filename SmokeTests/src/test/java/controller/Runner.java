@@ -8,7 +8,7 @@ import cucumber.api.junit.Cucumber;
 @RunWith(Cucumber.class)
 @CucumberOptions(
 features="src/test/resources",
-glue="src/test/java/stepDefinitionFiles",
+glue="stepDefinitionFiles",
 plugin={"html:target/cucumber-html-report", "json:target/cucumber.json",
  
 "pretty:target/cucumber-pretty.txt","usage:target/cucumber-usage.json", "junit:target/cucumber-results.xml"},
